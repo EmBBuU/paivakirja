@@ -1,38 +1,101 @@
-.App {
+h5 {
+  text-align: end;
+  margin-right: 10px;
+}
+
+.tehtavaheader {
+  margin: 7%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Tehtava {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  border: 2px solid black;
+  background-color: rgb(247, 170, 243);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #ff99ff;
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+}
+.Header {
+  background-color: #ff80ff;
+  text-align: right;
+  padding: 5px;
+  padding-right: 100px;
+  font-size: larger;
+  border-bottom-style: double;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Nabar */
+
+/* Style the top navigation bar */
+nav {
+  position: absolute;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between; /* Spread the items equally */
+  align-items: center; /* Center the items vertically */
+  overflow: hidden;
+  background-color: none;
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+nav li {
+  float: left;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style the links inside the navigation bar */
+nav a {
+  display: block;
+  background-color: #b3007d;
+  color: black;
+  text-align: center;
+  padding: 5px 50px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Courier New", monospace;
+  border-style: solid;
+  border-width: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Add a color to the active/current link */
+nav a:hover {
+  background-color: #6933ff;
+  color: black;
+  border-style: groove;
+}
+
+ul li a.active {
+  background-color: #6933ff;
+  color: black;
+}
+.Navlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Etusivu */
+
+.Home1 {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.Home2 {
+  margin: 10%;
+}
+
+.homeheader {
+  margin-top: 8%;
+  margin-left: 15%;
 }
